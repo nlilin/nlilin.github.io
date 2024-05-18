@@ -1,3 +1,222 @@
-<p>Hello 大家好</p>
-<p>我是lilin，这是我的个人网站。 </p>
+<!DOCTYPE html>
+<html lang="zh">
+<!--head-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content=#58b77a>
+  <title>Home Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="lilin">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <script id="hexo-configurations">
+  var CONFIG = {
+    root: '/',
+    theme: 'lx',
+    version: '0.4.3',
+    localsearch:{
+      "enable": false,
+      "trigger": "auto",
+      "top_n_per_article": 1,
+      "unescape": false,
+      "preload": false
+      },
+    path: 'null'
+  };
+</script>
 
+  <link rel="shortcut icon" href="/images/quote.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/css/main.min.css">
+  
+  <style type="text/css">
+    pre,
+    code {
+      font-family: 'Fira Code', monospace;
+    }
+    html {
+      font-family: sans-serif;
+    }
+    body {
+      font-family: sans-serif;
+    }
+    h1, h2, h3, h4, h5, figure {
+      font-family: sans-serif;
+    }
+    .menu-container{
+      font-family: sans-serif;
+    }
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/jquery.jside.menu.min.js"></script>
+  <script>
+	$(document).ready(function(){
+	$(".menu-container").jSideMenu({
+	    jSidePosition: "position-right",
+	    jSideSticky: true,
+	    jSideSkin: "",
+	     });
+	}); 
+  </script>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira Code:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">
+  <meta name="generator" content="Hexo 6.2.0">
+</head>
+
+<!--body-->
+<body>
+
+  <!--首页的页面的整个盒子-->
+  <div id="page">
+
+      <!-- 左边的盒子 -->
+      <div class="header">
+        <div id="lx-aside" style="background-image: url(https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/images/cover.min.jpeg)">
+          <div class="overlay">
+            <div class="featured">
+              <div class="avatar">
+                <a href="/"><img src="/images/profile.jpg" alt="lilin">
+                </a>
+              </div>
+              <span>lilin</span>
+              <h1>Home Page</h1>
+              <span>
+                  Welcome to my personal website.
+                  I am currently in my second year of graduate school and my research areas are computer vision and deep learning.
+              </span>
+              <div class="social-links">
+                <a href="mailto:nlilin@yeah.net" target="_blank" title="social-link">
+                  <i class="fa fa-envelope fa-fw"></i>
+                </a>
+        <!--    <a href="xxx.jpg" target="_blank" title="social-link"><i class="fa fa-weixin //fa fa-weixin图标名称 fa-fw"></i></a>-->
+        <!--    <a href="https://xxxxxx.com" target="_blank" title="social-link"><i class="fa fa-weibo fa-fw"></i></a>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 右边的盒子 -->
+      <div id="lx-main-content">
+        <div class="lx-post">
+
+          <!--右边的第一个盒子-->
+          <div class="lx-entry padding">
+            <div>
+              <h2 class="title">
+                <a href="/2024">
+                  111
+                </a>
+              </h2>
+              <span class="lx-post-detail">
+                <i class="fa fa-calendar-o"></i>
+                2024
+              </span>
+              <div class="post-button">
+                <a class="btn" href="/2024" rel="noopener">
+                  <i class="fa fa-angle-double-right fa-fw">
+                  </i>
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--底线的部分-->
+          <footer>
+            <div>
+          -------   line   -------
+            </div>
+          </footer>
+      </div>
+    </div>
+  </div>
+
+  <!--底部菜单的按键 -->
+  <button class="hamburger hamburger--arrow-r" type="button" title="menu">
+      <div class="hamburger-box">
+        <div class="hamburger-inner">
+        </div>
+      </div>
+  </button>
+
+  <!--底部的菜单-->
+  <div class="menu visibility">
+
+    <!-- 显示头像的盒子-->
+    <div class="menu-head">
+      <span class="layer">
+        <div class="col">
+          <div class="row for-pic">
+            <div class="profile-pic">
+              <a href="/">
+                <img src="/images/profile.jpg" alt="lilin"/>
+              </a>
+            </div>
+          </div>
+          <div class="row for-name">
+            <p>lilin</p>
+          </div>
+        </div>
+      </span>
+    </div>
+
+    <!-- 下面的菜单 -->
+    <nav class="menu-container">
+      <ul class="menu-items">
+        <li>
+          <a href="/">
+            <i class="fa fa-home fa-fw">
+            </i>
+            HomePage
+          </a>
+        </li>
+        <li>
+          <a href="/archives/">
+            <i class="fa fa-archive fa-fw">
+            </i>
+            Content
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!--回到顶部的按钮 -->
+  <div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/jquery.easing.min.js"></script>
+
+  <!-- 回到顶部的功能-->
+  <script>
+  (function () {
+      "use strict";
+      var goToTop = function() {
+          $(".js-gotop").on("click", function(event){
+              event.preventDefault();
+              $("html, body").animate({
+                  scrollTop: $("html").offset().top
+              }, 500, "easeInOutExpo");
+              return false;
+          });
+          $(window).scroll(function(){
+              var $win = $(window);
+              if ($win.scrollTop() > 200) {
+                  $(".js-top").addClass("active");
+              } else {
+                  $(".js-top").removeClass("active");
+              }
+          });
+      };
+      $(function(){
+          goToTop();
+      });
+  }());
+  </script>
+
+</body>
+</html>
